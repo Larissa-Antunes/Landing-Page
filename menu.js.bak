@@ -1,0 +1,18 @@
+var menu = document.getElementById("menu");
+var opener = document.getElementById("opener");
+var closer = document.getElementById("closer");
+var title = document.getElementById("title");
+
+function openMenu() {
+    menu.style.width = "320px";
+    menu.style.display = "block";
+    title.style.display = "none";
+}
+function closeMenu() {
+    menu.style.width = "0";
+    menu.style.display = "none";
+    title.style.display = "block";
+}
+
+opener.addEventListener("click", openMenu);
+closer.addEventListener("click", closeMenu);

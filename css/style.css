@@ -1,0 +1,101 @@
+
+.menu{
+  background-color: #dddddd;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.menu a{
+  float: left;
+  color: #dddddd;
+  text-align-last: center;
+  padding: 10px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  background-color:  #dddddd;
+  color: black;
+}
+.menu a.ativo{
+  background-color: #dddddd;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a.split {
+  float: right;
+  color: #1E90FF;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}

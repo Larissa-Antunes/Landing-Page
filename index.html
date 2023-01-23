@@ -5,7 +5,7 @@
   <title>Lanchonete Big Lanche</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link href="./css/style.css" rel="stylesheet" />
-  <script src="./js/index.js" type="text/javascript"></script>
+  <script src="./js/index.js" type="text/javascript" defer> </script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -56,19 +56,20 @@
 	    </div>		
     </div>
 
+    <h1> TESTE </h1>
    <div class="img-form">
-    <form action="" class="container1" id="contato">
+    <form class="container1" id="contato">
         <h1>Contato</h1>
         <label for="email"><b>Email:</b></label>
-        <input type="text" placeholder="Digite o seu Email" name="email" required>
+        <input type="text" placeholder="Digite o seu Email" id="email" name="email" required>
 
         <label for="telefone"><b>Telefone:</b></label>
-        <input type="text" placeholder="(00)00000-0000" name="telefone" required>
+        <input type="text" placeholder="(00)00000-0000" id="telefone" name="telefone" required>
 		<br>
-		<label for="text"><b>Observação:</b></label>
+		<label for="text" id="obs"><b>Observação:</b></label>
         <textarea></textarea>
 		<br><br>
-		<button class="btn" onclick="validar">Enviar</button>
+		<button onclick="validarForm()" >Enviar</button>
     </form>
     </div>
 	<br><br><br><br><br>
